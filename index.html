@@ -1,23 +1,19 @@
 <html>
-<head>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> <!-- Bootstrap, to give the button a cool look (: -->
-    <div class="container">
-</head>
-<body>
-    <br><br>
-    <h1 style="font-family: arial;">Clicker game!</h1>
-    <br>
-    <button class="btn btn-lg btn-success" onClick="addMoney();">Give me money</button>
-    <br>
-    <p style="font-family: arial;">Money: $<span id="balance"></p>
-</body>
-<script>
-    var balance = 0;
-    function addMoney(){
-        balance++
-        document.getElementById("balance").innerHTML = balance;
-
-    }
-</script>
-
+    <head>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> <!-- Bootstrap, to give the button a cool look (: -->
+        <div class="container">
+    </head>
+    <body>
+        <br><br>
+        <h1 style="font-family: arial;">Clicker game!</h1><br>
+        <button class="btn btn-lg btn-success" onclick="addMoney()">Give me money</button><br>
+        <p style="font-family: arial;">Money: $<span id="balance">0</span></p>
+    </body>
+    <script>
+        var balance = 0;
+        function addMoney(){
+            balance++;
+            document.getElementById("balance").innerHTML = balance;
+        }
+    </script>
 </html>
