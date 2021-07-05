@@ -5,4 +5,4 @@ A simple HTML clicker game
 
 Example [above]
 
-Used on https://slimediamond.ml/projects/clickergame
+Used to be used on https://slimediamond.ml/projects/clickergame
